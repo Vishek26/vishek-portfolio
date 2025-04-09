@@ -1,52 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Vishek | Digital Marketer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishek | Digital Marketing Specialist</title>
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      background: #f8f9fa;
-      color: #212529;
+      font-family: 'Segoe UI', sans-serif;
     }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+    }
+
     header {
-      background-color: #2d2e32;
-      color: white;
-      padding: 2rem;
+      background: linear-gradient(135deg, #00c9ff, #92fe9d);
+      padding: 60px 20px;
       text-align: center;
+      color: white;
     }
+
     header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+      font-size: 3rem;
+      margin-bottom: 10px;
     }
+
     header p {
-      margin-top: 0.5rem;
       font-size: 1.2rem;
-      color: #ccc;
     }
+
     section {
-      padding: 2rem;
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
     }
-    .skills {
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #444;
+      border-left: 5px solid #00c9ff;
+      padding-left: 10px;
+    }
+
+    .skills-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
     }
-    .skill-box {
+
+    .skill-card {
       background: white;
-      padding: 1rem;
+      padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #2e3a59;
+      color: white;
+      padding: 30px 20px;
       text-align: center;
     }
-    .contact {
-      background: #2d2e32;
-      color: white;
-      text-align: center;
-      padding: 1.5rem;
+
+    footer a {
+      color: #00c9ff;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -54,42 +83,41 @@
 
   <header>
     <h1>Vishek</h1>
-    <p>Digital Marketing & E-Commerce Specialist</p>
+    <p>Digital Marketer | E-Commerce Specialist | Brand Builder</p>
   </header>
 
   <section>
-    <h2>Skills & Expertise</h2>
-    <div class="skills">
-      <div class="skill-box">Website SEO</div>
-      <div class="skill-box">Social Media Marketing</div>
-      <div class="skill-box">E-commerce Management</div>
-      <div class="skill-box">Paid Promotions</div>
-      <div class="skill-box">Brand Promotions</div>
-    </div>
-  </section>
-
-  <section>
-    <h2>About Me</h2>
+    <h2 class="section-title">About Me</h2>
     <p>
-      I'm Vishek from New Delhi, currently pursuing BCA from WCTM. I’ve completed certifications from Infosys and Go Business India.
-      I specialize in boosting online presence, managing e-commerce platforms, and creating brand-driven promotional campaigns.
+      Hi, I'm Vishek from New Delhi. I'm currently pursuing a BCA from WCTM (affiliated with MDU) and have certifications in Digital Marketing from Infosys and Go Business India. My passion lies in helping brands grow through SEO, marketing campaigns, and e-commerce solutions.
     </p>
   </section>
 
   <section>
-    <h2>Projects</h2>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">Website SEO</div>
+      <div class="skill-card">Social Media Marketing</div>
+      <div class="skill-card">E-commerce Management</div>
+      <div class="skill-card">Paid Promotions</div>
+      <div class="skill-card">Brand Promotions</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Projects</h2>
     <ul>
-      <li><strong>Trendller:</strong> Built and promoted a soft toys brand website with SEO and marketing strategies.</li>
-      <li><strong>Sahil Henna:</strong> Enhanced online presence of a hair care brand with e-commerce optimization.</li>
-      <li><strong>Chanda Creations:</strong> Onboarded and managed utensil sales on Meesho, Amazon, and Flipkart.</li>
+      <li><strong>Trendller:</strong> Created and managed a soft toys e-commerce website.</li>
+      <li><strong>Sahil Henna:</strong> Optimized the digital presence of a beauty and hair care brand.</li>
+      <li><strong>Chanda Creations:</strong> Launched and managed Meesho, Amazon, and Flipkart stores for kitchen products.</li>
     </ul>
   </section>
 
-  <div class="contact">
-    <p>📍 D-111 Main Gopal Nagar, Najafgarh, New Delhi - 43</p>
-    <p>📞 +91 8851772524 | ✉️ panditvishek@gmail.com</p>
-    <p>🌐 <a href="https://trendller.com/" style="color: #00d8ff;">Visit Trendller</a></p>
-  </div>
+  <footer>
+    <p>D-111 Main Gopal Nagar, Najafgarh, New Delhi - 43</p>
+    <p>📞 +91 8851772524 | ✉️ <a href="mailto:panditvishek@gmail.com">panditvishek@gmail.com</a></p>
+    <p>🌐 <a href="https://trendller.com">Trendller.com</a></p>
+  </footer>
 
 </body>
 </html>
