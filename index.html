@@ -2,112 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vishek | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vishek | Digital Marketer</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background: #f8f9fa;
+      color: #212529;
     }
     header {
-      background-color: #4b6cb7;
+      background-color: #2d2e32;
       color: white;
       padding: 2rem;
       text-align: center;
     }
-    nav {
-      background-color: #3b5998;
-      color: white;
-      padding: 1rem;
-      text-align: center;
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #ccc;
     }
     section {
       padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
     }
-    .project {
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+    .skill-box {
       background: white;
       padding: 1rem;
-      margin: 1rem 0;
-      border-left: 5px solid #4b6cb7;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: center;
     }
-    footer {
-      background-color: #4b6cb7;
+    .contact {
+      background: #2d2e32;
       color: white;
       text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
+      padding: 1.5rem;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Vishek</h1>
-    <p>BCA Student | Web Developer | Digital Marketer | Tech Enthusiast</p>
+    <p>Digital Marketing & E-Commerce Specialist</p>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <section>
+    <h2>Skills & Expertise</h2>
+    <div class="skills">
+      <div class="skill-box">Website SEO</div>
+      <div class="skill-box">Social Media Marketing</div>
+      <div class="skill-box">E-commerce Management</div>
+      <div class="skill-box">Paid Promotions</div>
+      <div class="skill-box">Brand Promotions</div>
+    </div>
+  </section>
 
-  <section id="about">
+  <section>
     <h2>About Me</h2>
     <p>
-      Hi, I’m Vishek from New Delhi. I’m currently pursuing my Bachelor's in Computer Applications (BCA) at WCTM, affiliated with MDU. I have a passion for web development and digital marketing, and I’ve completed certifications from Infosys and Go Business India.
+      I'm Vishek from New Delhi, currently pursuing BCA from WCTM. I’ve completed certifications from Infosys and Go Business India.
+      I specialize in boosting online presence, managing e-commerce platforms, and creating brand-driven promotional campaigns.
     </p>
   </section>
 
-  <section id="projects">
+  <section>
     <h2>Projects</h2>
-    <div class="project">
-      <h3>Trendller – Soft Toy E-Commerce Website</h3>
-      <p>Developed a mobile-friendly toy website with combo offers, responsive design, and SEO optimization.</p>
-    </div>
-    <div class="project">
-      <h3>Sahil Henna – Beauty & Haircare Brand</h3>
-      <p>Built and optimized a website for a beauty brand, improving UI/UX and online sales performance.</p>
-    </div>
-    <div class="project">
-      <h3>BuyHomeDevice – Electronics Store</h3>
-      <p>Created a secure e-commerce store for gadgets and electronics with a modern user interface.</p>
-    </div>
-    <div class="project">
-      <h3>Chanda Creations – Marketplace Optimization</h3>
-      <p>Onboarded a utensil brand on Amazon, Flipkart & Meesho, and optimized product listings using analytics.</p>
-    </div>
-  </section>
-
-  <section id="skills">
-    <h2>Technical Skills</h2>
     <ul>
-      <li>Programming: Java, C++, Python, JavaScript</li>
-      <li>Web: HTML, CSS, React, WordPress</li>
-      <li>Database: SQL, MySQL, Oracle</li>
-      <li>Tools: Git, Docker, Canva, SEO</li>
-      <li>Digital Marketing: SEO, Google Tools, Branding</li>
+      <li><strong>Trendller:</strong> Built and promoted a soft toys brand website with SEO and marketing strategies.</li>
+      <li><strong>Sahil Henna:</strong> Enhanced online presence of a hair care brand with e-commerce optimization.</li>
+      <li><strong>Chanda Creations:</strong> Onboarded and managed utensil sales on Meesho, Amazon, and Flipkart.</li>
     </ul>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: panditvishek@gmail.com</p>
-    <p>Phone: +91 8851772524</p>
-    <p>Address: D-111, Main Gopal Nagar, Najafgarh, New Delhi - 43</p>
-  </section>
+  <div class="contact">
+    <p>📍 D-111 Main Gopal Nagar, Najafgarh, New Delhi - 43</p>
+    <p>📞 +91 8851772524 | ✉️ panditvishek@gmail.com</p>
+    <p>🌐 <a href="https://trendller.com/" style="color: #00d8ff;">Visit Trendller</a></p>
+  </div>
 
-  <footer>
-    <p>&copy; 2025 Vishek | All Rights Reserved</p>
-  </footer>
 </body>
 </html>
